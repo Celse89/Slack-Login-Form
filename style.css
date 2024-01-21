@@ -1,0 +1,165 @@
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid, #ffffff;
+}
+.container-one img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.google-sign-in::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    vertical-align: middle;
+    background: url(./google.png) no-repeat center;
+    background-size: contain;
+}
+
+.container-two-sub > *:not(:last-child):not(p) {
+    margin-bottom: 20px;
+}
+
+.container-two-sub h3 {
+    margin-bottom: 0px !important;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.container-two-sub p {
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 19px;
+    margin-top: 7px;
+
+}
+
+.google-sign-in {
+    text-align: center;
+    border: 1px solid  #E8E8E8;
+    width: 93%;
+    border-radius: 5px;
+    padding: 18px;
+
+}
+
+.google-sign-in span {
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    height: 19px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    color: #828282;
+}
+
+body .slack-form {
+    width: 100%;
+    height: 60%;
+    background-color: #ffffff;
+
+}
+
+body .slack-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    width: 92%;
+    padding: 20px;
+}
+
+.separator {
+    text-align: center;
+
+}
+.separator span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    color: #828282;
+}
+
+.password-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-me {
+    display: flex;
+    margin-top: 10px;
+
+}
+.remember-me label {
+    white-space: nowrap;
+    margin-top: 5px;
+    padding-left: 10px;
+    color: #7F265B;
+
+}
+
+.password-options a {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7F265B;
+    margin-top: 18px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+.user-login-form form button {
+    display: block;
+    width: 99%;
+    padding: 20px;
+    background-color:#7F265B;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;;    
+
+}
+
+.slack-form #email, #password {
+    padding: 20px;
+    font-size: 18px;
+    color: #828282;
+}
+
+.slack-form {
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
